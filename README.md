@@ -1,2 +1,3 @@
 # storm
-Projeto para o bootcamp Carrefour Web Developer da DIO
+## Projeto para o bootcamp Carrefour Web Developer da DIO
+### Em andamento
