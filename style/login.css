@@ -1,0 +1,64 @@
+body{
+    color: white;
+}
+
+.logo{
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: var(--branco);
+}
+
+.logo i{
+    color: var(--roxo3);
+}
+
+.row-logo{
+    height: 50vh;
+}
+
+.row-login{
+    height: 50vh;
+}
+
+input {
+    width: 100%;
+    border:0;
+    border: 3px solid var(--roxo1);
+    border-radius: 50px;
+    padding: 2px 0 2px 20px;
+    background: transparent;
+    outline: 0;
+
+    box-sizing: border-box;
+    transition: .3s ease all;
+
+    color: var(--branco);
+}
+
+input:hover{
+    border: 3px solid var(--roxo2);
+    cursor: pointer;
+}
+
+input:focus{
+    border: 3px solid var(--roxo3);
+}
+
+.btn{
+    width: 15%;
+    border:0;
+    border: 3px solid var(--branco);
+    border-radius: 50px;
+    background: transparent;
+    outline: 0;
+
+    box-sizing: border-box;
+    color: var(--branco);
+}
+
+.btn:hover{
+    border: 3px solid var(--roxo3);
+    color: var(--branco);
+    cursor: pointer;
+}
